@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "BzmP9SRQNOc=",
+  "dgSpecHash": "rXlP5vcVNBU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\marca\\Documents\\GitHub\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+  "projectFilePath": "C:\\Users\\veric\\OneDrive\\Desktop\\Uni\\Funaments de la programacio\\3 Trim\\Gamejam\\Driving-Through-gameJam-\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\marca\\.nuget\\packages\\csfml\\2.5.2\\csfml.2.5.2.nupkg.sha512",
-    "C:\\Users\\marca\\.nuget\\packages\\sfml.audio\\2.5.1\\sfml.audio.2.5.1.nupkg.sha512",
-    "C:\\Users\\marca\\.nuget\\packages\\sfml.graphics\\2.5.1\\sfml.graphics.2.5.1.nupkg.sha512",
-    "C:\\Users\\marca\\.nuget\\packages\\sfml.net\\2.5.1\\sfml.net.2.5.1.nupkg.sha512",
-    "C:\\Users\\marca\\.nuget\\packages\\sfml.system\\2.5.1\\sfml.system.2.5.1.nupkg.sha512",
-    "C:\\Users\\marca\\.nuget\\packages\\sfml.window\\2.5.1\\sfml.window.2.5.1.nupkg.sha512"
+    "C:\\Users\\veric\\.nuget\\packages\\csfml\\2.5.2\\csfml.2.5.2.nupkg.sha512",
+    "C:\\Users\\veric\\.nuget\\packages\\sfml.audio\\2.5.1\\sfml.audio.2.5.1.nupkg.sha512",
+    "C:\\Users\\veric\\.nuget\\packages\\sfml.graphics\\2.5.1\\sfml.graphics.2.5.1.nupkg.sha512",
+    "C:\\Users\\veric\\.nuget\\packages\\sfml.net\\2.5.1\\sfml.net.2.5.1.nupkg.sha512",
+    "C:\\Users\\veric\\.nuget\\packages\\sfml.system\\2.5.1\\sfml.system.2.5.1.nupkg.sha512",
+    "C:\\Users\\veric\\.nuget\\packages\\sfml.window\\2.5.1\\sfml.window.2.5.1.nupkg.sha512"
   ],
   "logs": []
 }

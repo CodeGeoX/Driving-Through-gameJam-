@@ -1025,19 +1025,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marca\\.nuget\\packages\\": {}
+    "C:\\Users\\veric\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marca\\Documents\\GitHub\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+      "projectUniqueName": "C:\\Users\\veric\\OneDrive\\Desktop\\Uni\\Funaments de la programacio\\3 Trim\\Gamejam\\Driving-Through-gameJam-\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
       "projectName": "Driving Through GameJam",
-      "projectPath": "C:\\Users\\marca\\Documents\\GitHub\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
-      "packagesPath": "C:\\Users\\marca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marca\\Documents\\GitHub\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\obj\\",
+      "projectPath": "C:\\Users\\veric\\OneDrive\\Desktop\\Uni\\Funaments de la programacio\\3 Trim\\Gamejam\\Driving-Through-gameJam-\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+      "packagesPath": "C:\\Users\\veric\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\veric\\OneDrive\\Desktop\\Uni\\Funaments de la programacio\\3 Trim\\Gamejam\\Driving-Through-gameJam-\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marca\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\veric\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1087,7 +1087,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\marca\\.dotnet\\sdk\\8.0.419/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\veric\\.dotnet\\sdk\\8.0.419/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

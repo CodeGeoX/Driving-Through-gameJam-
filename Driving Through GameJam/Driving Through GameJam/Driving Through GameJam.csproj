@@ -13,7 +13,15 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Sprites\" />
+      <None Update="Data\Textures\Player_normal.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\Textures\Player_Jump.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Data\Textures\Coche.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
 </Project>
