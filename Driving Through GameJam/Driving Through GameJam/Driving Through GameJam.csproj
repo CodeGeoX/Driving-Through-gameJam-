@@ -8,4 +8,14 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="SFML.Net" Version="2.5.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="Data\Player_normal.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>
