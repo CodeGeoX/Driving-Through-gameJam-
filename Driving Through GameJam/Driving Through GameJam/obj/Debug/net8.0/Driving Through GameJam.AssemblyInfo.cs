@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Driving Through GameJam")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73d950c6dd55268dbfe3a782f3d70d86152115b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63dab20b6c6e333ff7df036927bebdfc0c19fa00")]
 [assembly: System.Reflection.AssemblyProductAttribute("Driving Through GameJam")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Driving Through GameJam")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

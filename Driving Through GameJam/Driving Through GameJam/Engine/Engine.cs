@@ -4,7 +4,7 @@ using SFML.Window;
 using SFML.Graphics;
 using SFML.System;
 
-namespace TcGame
+namespace Driving_Through_GameJam.Game
 {
   public class Engine
   {
@@ -47,7 +47,7 @@ namespace TcGame
 
     private void Init()
     {
-      VideoMode videoMode = new VideoMode(1024, 768);
+      VideoMode videoMode = new VideoMode(320, 240);
       Window = new RenderWindow(videoMode, "Arkanoid");
       Window.SetVerticalSyncEnabled(true);
 

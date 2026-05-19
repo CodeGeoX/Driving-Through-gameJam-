@@ -11,5 +11,15 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\sfml.system\\2.5.1\\sfml.system.2.5.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\sfml.window\\2.5.1\\sfml.window.2.5.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problem reading the cache file D:\\HuJunliang\\Documentos\\GitHub\\Driving-Through-gameJam-\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "D:\\HuJunliang\\Documentos\\GitHub\\Driving-Through-gameJam-\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\HuJunliang\\Documentos\\GitHub\\Driving-Through-gameJam-\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

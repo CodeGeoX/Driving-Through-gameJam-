@@ -2,14 +2,15 @@
 using SFML.System;
 using SFML.Window;
 
-namespace TcGame
+namespace Driving_Through_GameJam.Game
 {
     public class Background : StaticActor
     {
         public Background()
         {
             Layer = ELayer.Background;
-            Sprite = new Sprite(new Texture("Data/Textures/Coche.png"));
+            Sprite = new Sprite(new Texture("Data/Textures/Mapa.png"));
+            
         }
         public override void Update(float dt)
         {
