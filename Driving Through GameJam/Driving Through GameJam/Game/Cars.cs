@@ -1,6 +1,18 @@
-﻿namespace Driving_Through_GameJam.Game;
+﻿
+using SFML.Graphics;
 
-public class Cars
+
+
+
+namespace Driving_Through_GameJam.Game;
+
+public class Cars: StaticActor
 {
+    public Cars()
+    {
+        Layer = ELayer.Middle;
+        Sprite = new Sprite(new Texture("Data/Textures/Coche.png"));
+        
+    }
     
 }
