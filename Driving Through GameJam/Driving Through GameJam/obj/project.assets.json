@@ -1025,19 +1025,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\veric\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\veric\\Downloads\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\GameJam\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
       "projectName": "Driving Through GameJam",
-      "projectPath": "C:\\Users\\veric\\Downloads\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
-      "packagesPath": "C:\\Users\\veric\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\veric\\Downloads\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\GameJam\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\GameJam\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\veric\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1087,7 +1087,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\veric\\.dotnet\\sdk\\8.0.419/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\User\\.dotnet\\sdk\\8.0.419/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,10 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using TcGame;
-
-namespace Driving_Through_GameJam.Game
+﻿namespace Driving_Through_GameJam.Game
 {
-    public class App
+    public class Program
     {
         public static void Main()
         {

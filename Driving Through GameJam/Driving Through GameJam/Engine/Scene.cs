@@ -2,7 +2,7 @@
 using SFML.Graphics;
 using System;
 
-namespace TcGame
+namespace Driving_Through_GameJam.Game
 {
   public class Scene : Drawable
   {

@@ -2,7 +2,7 @@
 using SFML.System;
 using SFML.Window;
 
-namespace TcGame
+namespace Driving_Through_GameJam.Game
 {
     public class MyGame : Game
     {

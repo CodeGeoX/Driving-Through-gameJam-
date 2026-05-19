@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
-namespace TcGame
+namespace Driving_Through_GameJam.Game
 {
   public class Actor : Transformable, Drawable
   {

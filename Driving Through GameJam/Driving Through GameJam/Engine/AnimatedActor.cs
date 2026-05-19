@@ -1,6 +1,6 @@
 ﻿using SFML.Graphics;
 
-namespace TcGame
+namespace Driving_Through_GameJam.Game
 {
   public class AnimatedActor : Actor
   {
