@@ -8,28 +8,36 @@ namespace TcGame
 {
     public class Player : StaticActor
     {
-        Random alea = new Random();
-        Vector2f Target;
-        private float coolDown = 3;
+        private bool wAnterior = false;
+        private bool sAnterior = false;
         public Player()
         {
-      
             Layer = ELayer.Middle;
-      
-            
+            Sprite = new Sprite(new Texture("Data/Textures/Player_normal.png"));
+            Position = (Vector2f) Engine.Get.Window.Size / 2;
             Center();
-            Position = new Vector2f(780.0f, 350.0f);
+            Forward = new Vector2f(0, -1);
+
         }
 
         public override void Update(float dt)
         {
-            base.Update(dt);
-            Forward = (Engine.Get.MousePos - Position).Normal();
-            Rotation = (float) Math.Atan2(Forward.Y, Forward.X) * MathUtil.RAD2DEG;
-      
+            bool wAhora = Keyboard.IsKeyPressed(Keyboard.Key.W);
+            bool sAhora = Keyboard.IsKeyPressed(Keyboard.Key.S);
             
-      
-      
+            base.Update(dt);
+            if (wAnterior && !wAhora)
+            {
+                Forward = new Vector2f(0, -1);
+                Position = Position + Forward * 200 * dt;
+            }
+            if (sAnterior && !sAhora)
+            {
+                Forward = new Vector2f(0, 1);
+                Position = Position + Forward * 200 * dt;
+            }
+            wAnterior = wAhora;
+            sAnterior = sAhora;
         }
     
     }
