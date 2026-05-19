@@ -2,7 +2,7 @@
 using SFML.Window;
 using SFML.System;
 
-namespace TcGame
+namespace Driving_Through_GameJam.Game
 {
   public class DebugManager : Drawable
   {

@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "C:\\Users\\marca\\Desktop\\Programacion\\1er año\\1er trimestre\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj": {}
   },
   "projects": {
@@ -12,9 +13,22 @@
         "projectPath": "C:\\Users\\marca\\Desktop\\Programacion\\1er año\\1er trimestre\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
         "packagesPath": "C:\\Users\\marca\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\marca\\Desktop\\Programacion\\1er año\\1er trimestre\\Driving Through GameJam\\Driving Through GameJam\\obj\\",
+=======
+    "C:\\Users\\User\\Desktop\\GameJam\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\User\\Desktop\\GameJam\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\GameJam\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+        "projectName": "Driving Through GameJam",
+        "projectPath": "C:\\Users\\User\\Desktop\\GameJam\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\GameJam\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\marca\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\marca\\.dotnet\\sdk\\8.0.419/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\User\\.dotnet\\sdk\\8.0.419/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

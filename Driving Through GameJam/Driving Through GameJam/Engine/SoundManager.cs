@@ -1,7 +1,7 @@
 ﻿using SFML.Audio;
 using System.Collections.Generic;
 
-namespace TcGame
+namespace Driving_Through_GameJam.Game
 {
   public class SoundManager
   {

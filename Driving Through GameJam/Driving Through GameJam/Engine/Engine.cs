@@ -4,7 +4,7 @@ using SFML.Window;
 using SFML.Graphics;
 using SFML.System;
 
-namespace TcGame
+namespace Driving_Through_GameJam.Game
 {
   public class Engine
   {
