@@ -1,8 +1,22 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "S+Gmpu8akMQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\marca\\Desktop\\Programacion\\1er año\\1er trimestre\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
   "expectedPackageFiles": [],
+=======
+  "dgSpecHash": "4B+bjmB0dQ4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USER\\Downloads\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\csfml\\2.5.2\\csfml.2.5.2.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\sfml.audio\\2.5.1\\sfml.audio.2.5.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\sfml.graphics\\2.5.1\\sfml.graphics.2.5.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\sfml.net\\2.5.1\\sfml.net.2.5.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\sfml.system\\2.5.1\\sfml.system.2.5.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\sfml.window\\2.5.1\\sfml.window.2.5.1.nupkg.sha512"
+  ],
+>>>>>>> Stashed changes
   "logs": []
 }

@@ -8,11 +8,16 @@
     "net8.0": []
   },
   "packageFolders": {
+<<<<<<< Updated upstream
     "C:\\Users\\marca\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
+>>>>>>> Stashed changes
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\marca\\Desktop\\Programacion\\1er año\\1er trimestre\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
       "projectName": "Driving Through GameJam",
       "projectPath": "C:\\Users\\marca\\Desktop\\Programacion\\1er año\\1er trimestre\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
@@ -21,6 +26,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marca\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+      "projectUniqueName": "C:\\Users\\USER\\Downloads\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+      "projectName": "Driving Through GameJam",
+      "projectPath": "C:\\Users\\USER\\Downloads\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Downloads\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> Stashed changes
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +79,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< Updated upstream
         "runtimeIdentifierGraphPath": "C:\\Users\\marca\\.dotnet\\sdk\\8.0.419/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Users\\USER\\.dotnet\\sdk\\8.0.421/PortableRuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
       }
     }
   }

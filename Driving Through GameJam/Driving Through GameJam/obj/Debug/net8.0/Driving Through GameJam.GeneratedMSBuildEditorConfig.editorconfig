@@ -8,6 +8,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Driving_Through_GameJam
+<<<<<<< Updated upstream
 build_property.ProjectDir = C:\Users\marca\Desktop\Programacion\1er año\1er trimestre\Driving Through GameJam\Driving Through GameJam\
+=======
+build_property.ProjectDir = C:\Users\USER\Downloads\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\
+>>>>>>> Stashed changes
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
