@@ -28,6 +28,14 @@ namespace Driving_Through_GameJam.Game
         {
             background = Engine.Get.Scene.Create<Background>();
             Player p = Engine.Get.Scene.Create<Player>();
+
+            CarSpawner spawner = Engine.Get.Scene.Create<CarSpawner>();
+            spawner.SetCarriles(new List<CarSpawner.Carril>
+            {
+                new (){ Y = 80f,  ToTheRight = true,  Speed = 70f, Interval = 2.5f },
+                new(){ Y = 120f, ToTheRight = false,  Speed = 90f, Interval = 2.0f },
+                new () { Y = 160f, ToTheRight = true,  Speed = 60f, Interval = 3.0f },
+            });
       
         }
        
