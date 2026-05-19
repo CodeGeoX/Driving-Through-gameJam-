@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "S+Gmpu8akMQ=",
+  "dgSpecHash": "BzmP9SRQNOc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\marca\\Desktop\\Programacion\\1er año\\1er trimestre\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\marca\\Documents\\GitHub\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marca\\.nuget\\packages\\csfml\\2.5.2\\csfml.2.5.2.nupkg.sha512",
+    "C:\\Users\\marca\\.nuget\\packages\\sfml.audio\\2.5.1\\sfml.audio.2.5.1.nupkg.sha512",
+    "C:\\Users\\marca\\.nuget\\packages\\sfml.graphics\\2.5.1\\sfml.graphics.2.5.1.nupkg.sha512",
+    "C:\\Users\\marca\\.nuget\\packages\\sfml.net\\2.5.1\\sfml.net.2.5.1.nupkg.sha512",
+    "C:\\Users\\marca\\.nuget\\packages\\sfml.system\\2.5.1\\sfml.system.2.5.1.nupkg.sha512",
+    "C:\\Users\\marca\\.nuget\\packages\\sfml.window\\2.5.1\\sfml.window.2.5.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -8,4 +8,12 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="SFML.Net" Version="2.5.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Sprites\" />
+    </ItemGroup>
+
 </Project>

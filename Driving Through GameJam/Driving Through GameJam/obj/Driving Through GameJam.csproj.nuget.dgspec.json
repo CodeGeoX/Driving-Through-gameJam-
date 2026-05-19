@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marca\\Desktop\\Programacion\\1er año\\1er trimestre\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj": {}
+    "C:\\Users\\marca\\Documents\\GitHub\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marca\\Desktop\\Programacion\\1er año\\1er trimestre\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj": {
+    "C:\\Users\\marca\\Documents\\GitHub\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marca\\Desktop\\Programacion\\1er año\\1er trimestre\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+        "projectUniqueName": "C:\\Users\\marca\\Documents\\GitHub\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
         "projectName": "Driving Through GameJam",
-        "projectPath": "C:\\Users\\marca\\Desktop\\Programacion\\1er año\\1er trimestre\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+        "projectPath": "C:\\Users\\marca\\Documents\\GitHub\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
         "packagesPath": "C:\\Users\\marca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marca\\Desktop\\Programacion\\1er año\\1er trimestre\\Driving Through GameJam\\Driving Through GameJam\\obj\\",
+        "outputPath": "C:\\Users\\marca\\Documents\\GitHub\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marca\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "SFML.Net": {
+              "target": "Package",
+              "version": "[2.5.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
