@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Driving Through GameJam")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8165700ced33ef0f156865e93fcae5a008646d9")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+377b17f64261c7b292faa8304c67b9ddf3f6dae3")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("Driving Through GameJam")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Driving Through GameJam")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
