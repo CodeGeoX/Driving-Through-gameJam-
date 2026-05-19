@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rXlP5vcVNBU=",
+  "dgSpecHash": "7aZmwTdj3cI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\veric\\OneDrive\\Desktop\\Uni\\Funaments de la programacio\\3 Trim\\Gamejam\\Driving-Through-gameJam-\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+  "projectFilePath": "C:\\Users\\veric\\Downloads\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\veric\\.nuget\\packages\\csfml\\2.5.2\\csfml.2.5.2.nupkg.sha512",
     "C:\\Users\\veric\\.nuget\\packages\\sfml.audio\\2.5.1\\sfml.audio.2.5.1.nupkg.sha512",

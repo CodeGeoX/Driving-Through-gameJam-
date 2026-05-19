@@ -13,13 +13,13 @@
     </ItemGroup>
 
     <ItemGroup>
-      <None Update="Data\Textures\Player_normal.png">
+      <None Update="Data\Textures\Coche.png">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
       <None Update="Data\Textures\Player_Jump.png">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
-      <None Update="Data\Textures\Coche.png">
+      <None Update="Data\Textures\Player_normal.png">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
     </ItemGroup>

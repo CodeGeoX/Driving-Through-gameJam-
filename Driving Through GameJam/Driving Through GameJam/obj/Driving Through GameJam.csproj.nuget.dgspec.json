@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\veric\\OneDrive\\Desktop\\Uni\\Funaments de la programacio\\3 Trim\\Gamejam\\Driving-Through-gameJam-\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj": {}
+    "C:\\Users\\veric\\Downloads\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj": {}
   },
   "projects": {
-    "C:\\Users\\veric\\OneDrive\\Desktop\\Uni\\Funaments de la programacio\\3 Trim\\Gamejam\\Driving-Through-gameJam-\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj": {
+    "C:\\Users\\veric\\Downloads\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\veric\\OneDrive\\Desktop\\Uni\\Funaments de la programacio\\3 Trim\\Gamejam\\Driving-Through-gameJam-\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+        "projectUniqueName": "C:\\Users\\veric\\Downloads\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
         "projectName": "Driving Through GameJam",
-        "projectPath": "C:\\Users\\veric\\OneDrive\\Desktop\\Uni\\Funaments de la programacio\\3 Trim\\Gamejam\\Driving-Through-gameJam-\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+        "projectPath": "C:\\Users\\veric\\Downloads\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
         "packagesPath": "C:\\Users\\veric\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\veric\\OneDrive\\Desktop\\Uni\\Funaments de la programacio\\3 Trim\\Gamejam\\Driving-Through-gameJam-\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\obj\\",
+        "outputPath": "C:\\Users\\veric\\Downloads\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\veric\\AppData\\Roaming\\NuGet\\NuGet.Config"

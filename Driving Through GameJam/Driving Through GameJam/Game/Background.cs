@@ -9,7 +9,7 @@ namespace TcGame
         public Background()
         {
             Layer = ELayer.Background;
-            Sprite = new Sprite(new Texture("Data/Textures/mapa.png"));
+            Sprite = new Sprite(new Texture("Data/Textures/Coche.png"));
         }
         public override void Update(float dt)
         {

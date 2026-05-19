@@ -16,22 +16,7 @@ namespace TcGame
       
             Layer = ELayer.Middle;
       
-            int skin = alea.Next(1, 4);
-      
-            switch (skin)
-            {
-                case 1:
-                    Sprite = new Sprite(new Texture("Data/Textures/rui1.png"));
-                    break;
-                case 2:
-                    Sprite = new Sprite(new Texture("Data/Textures/rui2.png"));
-                    break;
-                case 3:
-                    Sprite = new Sprite(new Texture("Data/Textures/rui3.png"));
-                    break;
-                default:
-                    break;
-            }
+            
             Center();
             Position = new Vector2f(780.0f, 350.0f);
         }
