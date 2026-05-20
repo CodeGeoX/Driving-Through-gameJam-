@@ -1,11 +1,11 @@
 ﻿using SFML.System;
+using SFML.Graphics; // Necesario para FloatRect
 using System.Collections.Generic;
 
 namespace Driving_Through_GameJam.Game;
 
 public class CarSpawner : Actor
 {
-
     private const float SpawnOffset = 16f;
     public string TexturaCoche { get; set; } = "Data/Textures/Coche.png";
     public struct Carril
@@ -23,14 +23,14 @@ public class CarSpawner : Actor
         Layer = ELayer.Background;
     }
 
-    public void SetCarriles(List<Carril> carriles)//añade carriles en una lista
+    public void SetCarriles(List<Carril> carriles)
     {
         _carriles.Clear();
         foreach (var c in carriles)
             _carriles.Add((c, 0f));
     }
 
-    public override void Update(float dt)//update del spwan de cars: spawneda cars en bucle en un intervalo segun un timer
+    public override void Update(float dt)
     {
         for (int i = 0; i < _carriles.Count; i++)
         {
@@ -47,11 +47,10 @@ public class CarSpawner : Actor
         }
     }
     
-    private void SpawnCar(Carril carril)//spawneo de cars. depede de la direccion del carril van derecha o izquierda a cierta velocidad
+    private void SpawnCar(Carril carril)
     {
         Cars car = Engine.Get.Scene.Create<Cars>();
         car.SetTexture(TexturaCoche);
-        Vector2u windowSize = Engine.Get.Window.Size;
 
         if (carril.ToTheRight)
         {
@@ -59,8 +58,10 @@ public class CarSpawner : Actor
             car.Forward = new Vector2f(1, 0);
         }
         else
-        {
-            car.Position = new Vector2f(windowSize.X + SpawnOffset, carril.Y);
+        { 
+            FloatRect limitesFondo = MyGame.Get.background.Sprite.GetGlobalBounds();
+            float anchoMapa = limitesFondo.Width;
+            car.Position = new Vector2f(anchoMapa + SpawnOffset, carril.Y);
             car.Forward = new Vector2f(-1, 0);
         }
 

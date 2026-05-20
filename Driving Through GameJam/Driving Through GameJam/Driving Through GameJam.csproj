@@ -60,4 +60,8 @@
       </None>
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Include="Game\Driving Through GameJam.csproj" />
+    </ItemGroup>
+
 </Project>

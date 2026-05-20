@@ -73,7 +73,12 @@ public class PowerUp : StaticActor
         }
         return false;
     }
-
+    public void ResetPowerUp()
+    {
+        activo = false;
+        timer = 0f;
+        PositionPU(); 
+    }
     public void PositionPU()
     {
         Random rnd = new Random();
@@ -81,7 +86,7 @@ public class PowerUp : StaticActor
         FloatRect limitesFondo = MyGame.Get.background.Sprite.GetGlobalBounds();
 
         float sizeX = rnd.Next(0, (int)limitesFondo.Width - 20);
-        float sizeY = rnd.Next(0, (int)(limitesFondo.Height / 2) - 20);
+        float sizeY = rnd.Next(0, (int)(limitesFondo.Height / 2));
         
         Position = new Vector2f(sizeX, sizeY);
         Sprite.Color = new Color(255, 255, 255, 255);
