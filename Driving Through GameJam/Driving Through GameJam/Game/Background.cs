@@ -6,16 +6,26 @@ namespace Driving_Through_GameJam.Game
 {
     public class Background : StaticActor
     {
+        private Texture texturaActual;
+
         public Background()
         {
             Layer = ELayer.Background;
-            Sprite = new Sprite(new Texture("Data/Textures/Mapa.png"));
+            
+            texturaActual = new Texture("Data/Textures/Mapa.png");
+            Sprite = new Sprite(texturaActual);
         }
 
-        // Cuando pasamos de nivel se pasa el nuevo path
         public void CambiarTextura(string nuevoPath)
         {
-            Sprite.Texture = new Texture(nuevoPath);
+            if (texturaActual != null)
+            {
+                texturaActual.Dispose();
+            }
+
+            texturaActual = new Texture(nuevoPath);
+            
+            Sprite.Texture = texturaActual;
         }
 
         public override void Update(float dt)

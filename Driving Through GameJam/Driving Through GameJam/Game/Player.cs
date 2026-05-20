@@ -15,14 +15,22 @@ namespace Driving_Through_GameJam.Game
         {
             Layer = ELayer.Middle;
             Sprite = new Sprite(new Texture("Data/Textures/Player_normal.png"));
-            ResetearPosicion();
             Center();
+            ResetearPosicion();
+            
             Forward = new Vector2f(0, -1);
         }
 
         private void ResetearPosicion()
         {
-            Position = (Vector2f)Engine.Get.Window.Size / 2;
+            FloatRect limitesFondo = MyGame.Get.background.Sprite.GetGlobalBounds();
+
+
+            float x = limitesFondo.Width / 2f;
+            
+            float y = limitesFondo.Height - (Sprite.GetGlobalBounds().Height / 2f);
+            
+            Position = new Vector2f(x, y);
         }
 
         public override void Update(float dt)
@@ -49,7 +57,6 @@ namespace Driving_Through_GameJam.Game
             if (Position.Y <= 0)
             { 
                 ResetearPosicion();
-
                 MyGame.Get.AvanzarNivel();
             }
         }
