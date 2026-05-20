@@ -9,6 +9,7 @@ namespace Driving_Through_GameJam.Game
         public Hud hud { private set; get; }
         public Background background { get;  private set;}
         private static MyGame Instance;
+        private int nivel;
         public static MyGame Get
         {
             get
@@ -30,6 +31,27 @@ namespace Driving_Through_GameJam.Game
             Player p = Engine.Get.Scene.Create<Player>();
 
             CarSpawner spawner = Engine.Get.Scene.Create<CarSpawner>();
+            switch (nivel)
+            {
+                case 1:
+                    spawner.TexturaCoche = "Data/Textures/Coche.png";
+                    break;
+                case 2:
+                    spawner.TexturaCoche = "Data/Textures/Coche.png";
+                    break;
+                case 3:
+                    spawner.TexturaCoche = "Data/Textures/Coche.png";
+                    break;
+                case 4:
+                    spawner.TexturaCoche = "Data/Textures/Coche.png";
+                    break;
+                case 5:
+                    spawner.TexturaCoche = "Data/Textures/Coche.png";
+                    break;
+                default:
+                    spawner.TexturaCoche = "Data/Textures/Coche.png";
+                    break;
+            }
             spawner.SetCarriles(new List<CarSpawner.Carril>
             {
                 new (){ Y = 80f,  ToTheRight = true,  Speed = 70f, Interval = 2.5f },

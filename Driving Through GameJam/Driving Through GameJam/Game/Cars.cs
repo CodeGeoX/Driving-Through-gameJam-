@@ -15,7 +15,7 @@ public class Cars: StaticActor
     public Cars()
     {
         Layer = ELayer.Middle;
-        Sprite = new Sprite(new Texture("Data/Textures/Coche.png"));
+        Sprite = new Sprite();
         Center();
  
         
@@ -44,6 +44,11 @@ public class Cars: StaticActor
         {
             Destroy();
         }
+    }
+    public void SetTexture(string texturePath)
+    {
+        Sprite.Texture = new Texture(texturePath);
+        Center();
     }
     
     
