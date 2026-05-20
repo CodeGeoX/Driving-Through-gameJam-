@@ -10,6 +10,10 @@ namespace Driving_Through_GameJam.Game
     {
         private bool wAnterior = false;
         private bool sAnterior = false;
+        private bool aAnterior = false;
+        private bool dAnterior = false;
+        private float Velocity = 200;
+
 
         public Player()
         {
@@ -35,24 +39,37 @@ namespace Driving_Through_GameJam.Game
 
         public override void Update(float dt)
         {
+
             bool wAhora = Keyboard.IsKeyPressed(Keyboard.Key.W);
             bool sAhora = Keyboard.IsKeyPressed(Keyboard.Key.S);
-            
-            base.Update(dt);
+            bool aAhora = Keyboard.IsKeyPressed(Keyboard.Key.A);
+            bool dAhora = Keyboard.IsKeyPressed(Keyboard.Key.D);
 
+            base.Update(dt);
             if (wAnterior && !wAhora)
             {
                 Forward = new Vector2f(0, -1);
-                Position = Position + Forward * 500 * dt;
+                Position = Position + Forward * Velocity * dt;
             }
             if (sAnterior && !sAhora)
             {
                 Forward = new Vector2f(0, 1);
-                Position = Position + Forward * 200 * dt;
+                Position = Position + Forward * Velocity * dt;
             }
-
+            if (aAnterior && !aAhora)
+            {
+                Forward = new Vector2f(-1, 0);
+                Position = Position + Forward * Velocity * dt;
+            }
+            if (dAnterior && !dAhora)
+            {
+                Forward = new Vector2f(1, 0);
+                Position = Position + Forward * Velocity * dt;
+            }
             wAnterior = wAhora;
             sAnterior = sAhora;
+            aAnterior = aAhora;
+            dAnterior = dAhora;
             
             if (Position.Y <= 0)
             { 

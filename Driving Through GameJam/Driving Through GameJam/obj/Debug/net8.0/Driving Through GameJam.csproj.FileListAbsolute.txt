@@ -776,3 +776,5 @@ C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam
 C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Data\Textures\Rock.png
 C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Data\Textures\Ship.png
 C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Data\Textures\Tractor.png
+C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Data\guru.otf
+C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Data\Textures\PowerUp.png

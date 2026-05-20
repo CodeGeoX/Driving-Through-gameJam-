@@ -13,6 +13,8 @@ namespace Driving_Through_GameJam.Game
         public int nivel;
         public int nivelActual;
         private CarSpawner spawner;
+        int points  = 0;
+
         
         private List<string> rutasMapas = new List<string>()
         {
@@ -42,10 +44,13 @@ namespace Driving_Through_GameJam.Game
         public void Init()
         {
             background = Engine.Get.Scene.Create<Background>();
+    
+            PowerUp pu = Engine.Get.Scene.Create<PowerUp>();
             Player p = Engine.Get.Scene.Create<Player>();
-            
+    
+            hud = Engine.Get.Scene.Create<Hud>();
             spawner = Engine.Get.Scene.Create<CarSpawner>();
-            
+    
             ActualizarTexturaSpawner();
 
             spawner.SetCarriles(new List<CarSpawner.Carril>
@@ -56,7 +61,7 @@ namespace Driving_Through_GameJam.Game
             });
         }
         
-        private void ActualizarTexturaSpawner()
+        private void ActualizarTexturaSpawner() 
         {
             if (spawner == null) return;
 
@@ -108,9 +113,9 @@ namespace Driving_Through_GameJam.Game
             
             spawner.SetCarriles(new List<CarSpawner.Carril>
             {
-                new (){ Y = 80f,  ToTheRight = true,  Speed = 70f, Interval = 2.5f },
-                new(){ Y = 120f, ToTheRight = false,  Speed = 90f, Interval = 2.0f },
-                new () { Y = 160f, ToTheRight = true,  Speed = 60f, Interval = 3.0f },
+                new (){ Y = 80f,  ToTheRight = true,  Speed = 80f, Interval = 2.5f },
+                new(){ Y = 120f, ToTheRight = false,  Speed = 80f, Interval = 2.0f },
+                new () { Y = 160f, ToTheRight = true,  Speed = 80f, Interval = 3.0f },
             });
         }
 
