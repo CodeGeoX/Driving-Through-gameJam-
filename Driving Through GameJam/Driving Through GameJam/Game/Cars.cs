@@ -7,8 +7,7 @@ namespace Driving_Through_GameJam.Game;
 public class Cars: StaticActor
 {
     private const float SpawnOffset = 20f;
- 
-    // Tiempo de fade-in en segundos (0 = sin fade)
+    
     private float _fadeDuration = 0.4f;
     private float _fadeTimer = 0f;
     private bool _isFadingIn = true;
