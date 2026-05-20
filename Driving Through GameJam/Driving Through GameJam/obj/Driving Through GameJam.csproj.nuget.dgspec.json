@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HuJunliang\\Documentos\\GitHub\\Driving-Through-gameJam-\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj": {}
+    "C:\\Users\\marca\\Documents\\GitHub\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj": {}
   },
   "projects": {
-    "D:\\HuJunliang\\Documentos\\GitHub\\Driving-Through-gameJam-\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj": {
+    "C:\\Users\\marca\\Documents\\GitHub\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HuJunliang\\Documentos\\GitHub\\Driving-Through-gameJam-\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+        "projectUniqueName": "C:\\Users\\marca\\Documents\\GitHub\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
         "projectName": "Driving Through GameJam",
-        "projectPath": "D:\\HuJunliang\\Documentos\\GitHub\\Driving-Through-gameJam-\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\HuJunliang\\Documentos\\GitHub\\Driving-Through-gameJam-\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\obj\\",
+        "projectPath": "C:\\Users\\marca\\Documents\\GitHub\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\Driving Through GameJam.csproj",
+        "packagesPath": "C:\\Users\\marca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marca\\Documents\\GitHub\\Driving-Through-gameJam-\\Driving Through GameJam\\Driving Through GameJam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\marca\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\ASUS\\.dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\marca\\.dotnet\\sdk\\8.0.419/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

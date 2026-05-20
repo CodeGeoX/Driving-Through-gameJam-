@@ -10,11 +10,16 @@ namespace Driving_Through_GameJam.Game
         {
             Layer = ELayer.Background;
             Sprite = new Sprite(new Texture("Data/Textures/Mapa.png"));
-            
         }
+
+        // Cuando pasamos de nivel se pasa el nuevo path
+        public void CambiarTextura(string nuevoPath)
+        {
+            Sprite.Texture = new Texture(nuevoPath);
+        }
+
         public override void Update(float dt)
         {
         }
-  
     }
 }

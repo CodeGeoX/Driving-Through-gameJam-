@@ -10,14 +10,19 @@ namespace Driving_Through_GameJam.Game
     {
         private bool wAnterior = false;
         private bool sAnterior = false;
+
         public Player()
         {
             Layer = ELayer.Middle;
             Sprite = new Sprite(new Texture("Data/Textures/Player_normal.png"));
-            Position = (Vector2f) Engine.Get.Window.Size / 2;
+            ResetearPosicion();
             Center();
             Forward = new Vector2f(0, -1);
+        }
 
+        private void ResetearPosicion()
+        {
+            Position = (Vector2f)Engine.Get.Window.Size / 2;
         }
 
         public override void Update(float dt)
@@ -26,6 +31,7 @@ namespace Driving_Through_GameJam.Game
             bool sAhora = Keyboard.IsKeyPressed(Keyboard.Key.S);
             
             base.Update(dt);
+
             if (wAnterior && !wAhora)
             {
                 Forward = new Vector2f(0, -1);
@@ -36,9 +42,16 @@ namespace Driving_Through_GameJam.Game
                 Forward = new Vector2f(0, 1);
                 Position = Position + Forward * 200 * dt;
             }
+
             wAnterior = wAhora;
             sAnterior = sAhora;
+            
+            if (Position.Y <= 0)
+            { 
+                ResetearPosicion();
+
+                MyGame.Get.AvanzarNivel();
+            }
         }
-    
     }
 }
