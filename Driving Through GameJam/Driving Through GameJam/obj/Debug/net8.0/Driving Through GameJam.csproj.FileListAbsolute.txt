@@ -576,7 +576,6 @@ D:\HuJunliang\Documentos\GitHub\Driving-Through-gameJam-\Driving-Through-gameJam
 D:\HuJunliang\Documentos\GitHub\Driving-Through-gameJam-\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\obj\Debug\net8.0\ref\Driving Through GameJam.dll
 C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Driving Through GameJam.exe
 C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Data\Textures\Coche.png
-C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Data\Textures\Mapa.png
 C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Data\Textures\Player_Jump.png
 C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Data\Textures\Player_normal.png
 C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Driving Through GameJam.deps.json
@@ -767,3 +766,13 @@ C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam
 C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\obj\Debug\net8.0\Driving Through GameJam.pdb
 C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\obj\Debug\net8.0\Driving Through GameJam.genruntimeconfig.cache
 C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\obj\Debug\net8.0\ref\Driving Through GameJam.dll
+C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Data\Textures\Map1.png
+C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Data\Textures\Map2.png
+C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Data\Textures\Map3.png
+C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Data\Textures\Map4.png
+C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Data\Textures\Map5.png
+C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Data\Textures\Car.png
+C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Data\Textures\Crab.png
+C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Data\Textures\Rock.png
+C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Data\Textures\Ship.png
+C:\Users\marca\Documents\GitHub\Driving-Through-gameJam-\Driving Through GameJam\Driving Through GameJam\bin\Debug\net8.0\Data\Textures\Tractor.png

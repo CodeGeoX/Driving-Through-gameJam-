@@ -12,7 +12,7 @@ namespace Driving_Through_GameJam.Game
         {
             Layer = ELayer.Background;
             
-            texturaActual = new Texture("Data/Textures/Mapa.png");
+            texturaActual = new Texture("Data/Textures/Map1.png");
             Sprite = new Sprite(texturaActual);
         }
 

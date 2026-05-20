@@ -11,7 +11,7 @@ namespace Driving_Through_GameJam.Game
   {
     public Action<Actor> OnDestroy;
     public Vector2f Forward;
-    protected float Speed;
+    public float Speed;
     public enum ELayer
     {
       Background,

@@ -43,7 +43,7 @@ namespace Driving_Through_GameJam.Game
             if (wAnterior && !wAhora)
             {
                 Forward = new Vector2f(0, -1);
-                Position = Position + Forward * 200 * dt;
+                Position = Position + Forward * 500 * dt;
             }
             if (sAnterior && !sAhora)
             {

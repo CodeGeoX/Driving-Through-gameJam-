@@ -47,7 +47,7 @@ namespace Driving_Through_GameJam.Game
 
     private void Init()
     {
-      VideoMode videoMode = new VideoMode(320, 240);
+      VideoMode videoMode = new VideoMode(300, 225);
       Window = new RenderWindow(videoMode, "Arkanoid");
       Window.SetVerticalSyncEnabled(true);
 
